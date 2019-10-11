@@ -7,7 +7,7 @@ C'est aussi très pratique pour passer le flux VNC via un port HTTP ou HTTPS, po
 
 Il suffit simplement de faire:
 ```
-./start.sh
+./start.sh adrs_ip_serveur_vnc_remote
 ```
 
 Après on se connecte avec son serveur sur:
@@ -18,5 +18,4 @@ ad_ip:8081
 Si on veut faire tourner le container docker en tâche de fond, il faut ajouter '-d' dans la commande *docker run* !
 
 
-zf191011.1729
-
+zf191011.1735
