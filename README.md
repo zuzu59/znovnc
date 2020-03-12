@@ -1,7 +1,7 @@
 # znovnc
 Petits serveur NoVNC dans un container Docker
 
-zf200312.1805
+zf200312.1845
 
 ## Utilisation
 NoVNC permet de se connecter en VNC sur une machine distante sans devoir installer un client VNC. On utilise pour cela simplement le browser.<br>
@@ -26,6 +26,12 @@ Si on veut faire tourner le container docker en tâche de fond, il faut ajouter 
 
 ## Goodies
 Si on veut rapidement partager son écran via VNC sous Linux, il suffit juste d'installer **x11vnc** et de lancer à la volée. Pas besoin de mot de passe ;-)
+
+Pour pouvoir se connecter en même temps à plusieurs dessus (partage d'écran), il faut faire:
+```
+x11vnc -shared
+```
+
 
 
 
