@@ -1,7 +1,7 @@
 # znovnc
 Petits serveur NoVNC dans un container Docker
 
-zf200312.1914
+zf200312.1918
 
 ## Utilisation
 NoVNC permet de se connecter en VNC sur une machine distante sans devoir installer un client VNC. On utilise pour cela simplement le browser.<br>
@@ -46,5 +46,12 @@ x11vnc -loop -shared -passwd toto123
 ```
 
 
+## et les tunnels SSH anti Coronavirus ?
+
+```
+ssh -R 8082:localhost:8081 zuzu@siipc6.epfl.ch
+siipc6:~ zuzu$
+ssh -g -L 8081:localhost:8082 zuzu@localhost
+```
 
 
