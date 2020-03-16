@@ -3,7 +3,7 @@
 version: '3.3'
 
 services:
-    znovnc0:
+    znovnc6:
         image: dougw/novnc
         restart: always
         environment:

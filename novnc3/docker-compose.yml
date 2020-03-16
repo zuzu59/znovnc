@@ -1,0 +1,14 @@
+#zf200316.1827
+
+version: '3.3'
+
+services:
+    znovnc3:
+        image: dougw/novnc
+        restart: always
+        environment:
+            REMOTE_HOST: 0.0.0.0
+            REMOTE_PORT: 5900
+        volumes:
+            - ./conf:/etc/supervisor/conf.d
+        network_mode: host
