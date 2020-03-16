@@ -8,7 +8,7 @@ services:
         restart: always
         environment:
             REMOTE_HOST: 0.0.0.0
-            REMOTE_PORT: 5900
+            REMOTE_PORT: 5902
         volumes:
             - ./conf:/etc/supervisor/conf.d
         network_mode: host
